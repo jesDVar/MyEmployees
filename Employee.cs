@@ -11,17 +11,9 @@
  *
  */
 
-using System;
-
 namespace MyEmployees
 {
-    class Program
+    public class Employee
     {
-        static void Main(string[] args)
-        {
-            string person = Console.ReadLine();
-            Console.WriteLine(person);
-            Employee employee = new Employee();
-        }
     }
 }
