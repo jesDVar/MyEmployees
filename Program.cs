@@ -19,9 +19,15 @@ namespace MyEmployees
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("This is the MyEmployees-Program.");
+            Console.WriteLine("Type in all the data about your employees.");
             string person = Console.ReadLine();
             Console.WriteLine(person);
-            Employee employee = new Employee();
+
+            //Employee employee = new Employee("Kalle", 10000);
+            //employee.Salary = -20000;
+
+
         }
     }
 }
